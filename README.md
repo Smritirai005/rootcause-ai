@@ -55,9 +55,3 @@ data/loghub/       # real downloaded log dataset
 - `agents/pipeline.py` graph compiles with all 3 nodes wired correctly (planner →
   investigator → recommendation → END).
 
-## Next (Week 2)
-
-- Wrap `tools/*.py` functions in an MCP server, swap LangGraph to call MCP instead
-  of direct function calls.
-- RAG: FastAPI + Postgres docs → FAISS.
-- LangSmith tracing.
